@@ -238,3 +238,23 @@ h2 {
     padding: 6px;
   }
 }
+
+@media (max-width: 768px) {
+  .scroll-btn.left {
+    left: 5px; /* ou 0px */
+  }
+
+  .scroll-btn.right {
+    right: 5px; /* ou 0px */
+  }
+}
+
+@media (max-width: 480px) {
+  .scroll-btn.left {
+    left: 2px;
+  }
+
+  .scroll-btn.right {
+    right: 2px;
+  }
+}
